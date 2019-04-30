@@ -1,0 +1,6 @@
+describe('countAllFromTown  test' , function(){
+    it('should show you how to use MochaJS' , function(){
+        assert.equal(countAllFromTown("CL 124,CY 567,CL 345,CJ 456,CL 341","CL"), 3);
+    });
+
+});

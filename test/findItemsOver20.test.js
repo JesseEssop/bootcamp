@@ -1,5 +1,5 @@
 describe('findItemsOver20 test' , function(){
-    it('should show you how to use MochaJS' , function(){
+    it('This test should return all the products that have a quantity higher than 20.' , function(){
         assert.deepEqual(findItemsOver20([
             {name : 'apples', qty : 10},
             {name : 'pears', qty : 37},

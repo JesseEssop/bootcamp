@@ -1,5 +1,5 @@
 describe('transportFee test' , function(){
-    it('should show you how to use MochaJS' , function(){
+    it('should return the right price based on the shift you are working' , function(){
         assert.equal(transportFee("morning"), "R20" );
     });
 

@@ -1,3 +1,10 @@
 function regCheck(nose, rich){
-    return nose.endsWith(rich)
-  }
+  console.log(nose)
+  if(nose.endsWith(rich)){
+     return true;
+     }
+     else{
+     return false
+    
+     }
+}

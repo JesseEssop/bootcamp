@@ -1,5 +1,5 @@
 describe('findItemsOver test', function () {
-    it('should show you how to use MochaJS', function () {
+    it('The function should return products that have quantity higher than the threshold.', function () {
         assert.deepEqual(findItemsOver([
             { name: 'pears', qty: 3 },
             { name: 'bananas', qty: 27 },

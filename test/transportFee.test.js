@@ -4,5 +4,8 @@ describe('transportFee test' , function(){
         assert.equal(transportFee("afternoon"), "R10" );
         assert.equal(transportFee("night"), "free" );
     });
-
+    it('This tests an empty string and should return free' , function(){
+        assert.equal(transportFee(" "), "free" );
+       
+});
 });

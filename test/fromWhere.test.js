@@ -4,5 +4,8 @@ describe('fromWhere test' , function(){
         assert.equal(fromWhere("CA"),"Cape Town" );
         assert.equal(fromWhere("CJ"),"Paarl" );
     });
-
+    it('This test that takes a car registration number as a parameter and returns the town the car is from' , function(){
+        assert.equal(fromWhere(" "),"Some other place!" );
+        assert.equal(fromWhere("CA"),"Cape Town" );
+});
 });

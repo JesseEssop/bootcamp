@@ -6,5 +6,11 @@ describe('regCheck test' , function(){
 
 
     });
+    it('This test can checks an empty string if a registration number is for GP, L, EC, MP registration plates.' , function(){
+        assert.equal(regCheck(" "," ") ,true );
+        assert.equal(regCheck(" ","EC") ,false );
 
+
+
+});
 });

@@ -4,5 +4,12 @@ describe('countAllFromTown  test' , function(){
         assert.equal(countAllFromTown("CL 124,CY 567,CL 345,CJ 456,CL 341","CJ"), 1);
         assert.equal(countAllFromTown("CL 124,CY 567,CL 345,CJ 456,CL 341","CY"), 1);
     });
+    it('This test should return all the registration numbers in the string that is for that town.' , function(){
+        assert.equal(countAllFromTown("CL 124,CY 567,CL 345,CJ 456,CL 341","CY"),1);
+       
 
+});
+    it('This tests an empty string should return nothing.' , function(){
+    assert.equal(countAllFromTown(" "," "),0);
+});
 });

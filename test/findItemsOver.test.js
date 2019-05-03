@@ -7,5 +7,10 @@ describe('findItemsOver test', function () {
                 { name: 'bananas', qty: 27 }
             ]);
     });
-
+    it('The function should return no products because none are over the threshold amount.', function () {
+        assert.deepEqual(findItemsOver([
+            { name: 'pears', qty: 3 },
+            { name: 'bananas', qty: 27 },
+        ], 30), []);
+});
 });
